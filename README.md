@@ -1,1 +1,3 @@
 # Immortal Creed API Examples
+
+Starting with simple password auth example. More to follow ...

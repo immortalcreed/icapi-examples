@@ -1,7 +1,7 @@
 const apiUrl = 'https://play.immortalcreed.com/game/api';
 
 // Replace with your email and password. Password login must be enabled on the account.
-// WARNING! Saving passwords in code is not recommended! Usage here is for example purposes only.
+// WARNING! Saving passwords in plaintext is not recommended! Usage here is for example purposes only.
 const email = 'test@immortalcreed.com';
 const password = '';
 
@@ -15,7 +15,7 @@ function throwErrors (res) {
 
 function getOwnedCards() {
 
-  // authenticate and obtain the session cookie
+  // log in and obtain the authentication cookie
   fetch(`${apiUrl}/authorize/login`, {
     method: 'POST',
     headers: {
@@ -39,6 +39,7 @@ function getOwnedCards() {
         }
       });
     })
+    .then(throwErrors)
     .then(apiResponse => {
       return apiResponse.json();
     })

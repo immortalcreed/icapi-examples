@@ -6,7 +6,7 @@ For hive accounts, precede the account name with the '@' symbol.
 https://play.immortalcreed.com/game/api/players/@broon/cards
 ```
 <br /><br />
-For web3 wallet addresses, precede the account name with '0x'.
+For web3 wallet addresses, precede the account address with '0x'.
 ```
 https://play.immortalcreed.com/game/api/players/0x39314263C1d5F244a0e7ff2CAbaa01c5b2409be3/cards
 ```

@@ -27,6 +27,7 @@ https://play.immortalcreed.com/game/api/players/icgw-15108409-c6dc-4d18-94a1-02b
 Cards owned by a player can be retrieved similarly, adding `/cards` to the API URL used to retrieve base stats.
 ```
 https://play.immortalcreed.com/game/api/players/@broon/cards
+```
+```
 https://play.immortalcreed.com/game/api/players/0x39314263C1d5F244a0e7ff2CAbaa01c5b2409be3/cards
-...
 ```

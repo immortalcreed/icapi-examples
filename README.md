@@ -5,7 +5,7 @@ To retrieve stats and token amounts owned by a player, you can use their hive ac
 <br /><br /><br />
 For hive accounts, precede the account name with the '@' symbol.
 ```
-https://play.immortalcreed.com/game/api/players/@broon
+https://play.immortalcreed.com/game/api/players/@arcanity
 ```
 <br /><br />
 For web3 wallet addresses, precede the account address with '0x'.
